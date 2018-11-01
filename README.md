@@ -8,7 +8,7 @@ Saikumar Nalivela
 Sai Tejaswini Narne
 
 ## Workshop Topic
-Our topic Async-await with Spheros.
+Our topic is Async-await with Spheros.
 //Describe the focus and purpose of your workshop. 
 
 ## Process

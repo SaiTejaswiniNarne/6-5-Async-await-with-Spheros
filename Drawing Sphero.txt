@@ -1,0 +1,74 @@
+// Optimized for Mini
+async function startProgram() {
+	setMainLed({ r: 255, g: 44, b: 48 });
+	await turn(322);
+	await rollDistance(322, 130, 15);
+	await rollDistance(322, 85, 13);
+	await rollDistance(316, 85, 4);
+	await comeToStop();
+	setMainLed({ r: 0, g: 0, b: 0 });
+	await turn(194);
+	await rollDistance(194, 85, 4);
+	await comeToStop();
+	setMainLed({ r: 255, g: 57, b: 232 });
+	await turn(173);
+	await rollDistance(173, 130, 16);
+	await rollDistance(173, 85, 13);
+	await rollDistance(176, 85, 4);
+	await comeToStop();
+	setMainLed({ r: 0, g: 0, b: 0 });
+	await turn(188);
+	await rollDistance(188, 85, 4);
+	await comeToStop();
+	setMainLed({ r: 95, g: 96, b: 255 });
+	await turn(31);
+	await rollDistance(31, 130, 9);
+	await rollDistance(30, 105, 15);
+	await comeToStop();
+	setMainLed({ r: 0, g: 0, b: 0 });
+	await turn(208);
+	await rollDistance(208, 85, 4);
+	await comeToStop();
+	setMainLed({ r: 73, g: 255, b: 164 });
+	await turn(240);
+	await rollDistance(240, 125, 20);
+	await comeToStop();
+	setMainLed({ r: 0, g: 0, b: 0 });
+	await turn(154);
+	await rollDistance(154, 85, 4);
+	await comeToStop();
+	setMainLed({ r: 106, g: 0, b: 255 });
+	await turn(95);
+	await rollDistance(95, 95, 16);
+	await comeToStop();
+	exitProgram();
+}
+
+var MIN_SPEED = 5.0;
+var minSpeedSq = MIN_SPEED ** 2;
+
+async function comeToStop() {
+	stopRoll();
+
+	while ((getVelocity().x ** 2) + (getVelocity().y ** 2) > minSpeedSq) {
+		await delay(0.025);
+	}
+}
+
+async function turn(heading) {
+	setHeading(heading);
+	await delay(0.5);
+}
+
+async function rollDistance(heading, speed, distance) {
+	await roll(heading, speed);
+
+	var distanceSq = distance ** 2;
+	var startLocation = getLocation();
+
+	while (((getLocation().x - startLocation.x) ** 2) + ((getLocation().y - startLocation.y) ** 2) < distanceSq) {
+		await delay(0.025);
+	}
+}
+
+

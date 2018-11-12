@@ -1,7 +1,7 @@
 # 6-5-Async-await-with-Spheros
 
 ## About Us
-1. Jacob McCullough
+1. Jacob McCullough - Introducing the sphero/ Getting started with Sphero edu/ Demo about Sphero with drawing  
 2. Mehar Choudhary Meenavilli - Explaining about promises in javascript
 3. Harika Naidu - Demo about the Sphero mini with coding (using javascript) 
 4. Saikumar Nalivela - Explaining about Async and Await
@@ -27,6 +27,8 @@
 ## Setting up Sphero edu
 
 1.	Download Sphero edu onto your mobile device
+
+*here is a link to https://edu.sphero.com
 
 ![sphero edu](https://user-images.githubusercontent.com/34502339/48323504-13183500-e5f2-11e8-9dc2-5312bd9f3e69.jpg)
  

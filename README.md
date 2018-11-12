@@ -2,7 +2,7 @@
 
 ## About Us
 1. Jacob McCullough
-2. Mehar Choudhary Meenavilli
+2. Mehar Choudhary Meenavilli - Explaining about promises in javascript
 3. Harika Naidu - Demo about the Sphero mini with coding (using javascript) 
 4. Saikumar Nalivela - Explaining about Async and Await
 5. Sai Tejaswini Narne

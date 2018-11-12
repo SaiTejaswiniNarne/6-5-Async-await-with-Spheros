@@ -59,7 +59,7 @@
 
 ![sphero 7](https://user-images.githubusercontent.com/34502339/48323638-b8cba400-e5f2-11e8-817b-58aaa0664194.PNG)
 
-9.	Hit Play to Start your Program
+9.	Hit the Green Start Button to Start your Program
 
 ![sphero 4](https://user-images.githubusercontent.com/34502339/48323652-cd0fa100-e5f2-11e8-8e95-7b9c16756276.PNG)
 

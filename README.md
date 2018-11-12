@@ -5,7 +5,7 @@
 2. Mehar Choudhary Meenavilli - Explaining about promises in javascript
 3. Harika Naidu - Demo about the Sphero mini with coding (using javascript) 
 4. Saikumar Nalivela - Explaining about Async and Await
-5. Sai Tejaswini Narne
+5. Sai Tejaswini Narne - Demo about the Sphero mini with the Blocks
 
 ## Workshop Topic
 - Our topic is Async-await with Spheros.
